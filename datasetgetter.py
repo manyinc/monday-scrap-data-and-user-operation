@@ -5,10 +5,14 @@ global data_set
 data_set = []
 #####################
 
+########################################
 # Monday.com API Key
 apiKey = "secret api key here"
 IDS = "1234567890" # Board ID
 
+#Sms api key
+SMS_API_KEY = "sms api key here"
+########################################
 
 apiUrl = "https://api.monday.com/v2"
 headers = {"Authorization" : apiKey}
