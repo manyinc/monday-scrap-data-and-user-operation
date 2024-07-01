@@ -112,7 +112,7 @@ class Person:
 
     def send_sms(self, sender: str, msg_content: str, recipient_number: str):
 
-        access_token = 'j357sVqDXirTeHN4exqD9LN81ArAuRfI6l91YvJM'
+        access_token = 'sms api token'
 
         client = SmsApiPlClient(access_token=access_token)
 
